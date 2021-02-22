@@ -15,6 +15,40 @@ body {
     flex: 1 0 auto;
 }
 
+nav {
+    border-bottom: 1px solid black;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    padding-left: 1rem;
+    list-style: none;
+    display: flex;
+}
+
+nav>ul>* + * {
+    margin-left: 1rem;
+}
+
+nav>ul>li {
+    border-radius: 1rem;
+    border: 1px solid gray;
+    padding: 0.5rem;
+}
+
+nav>ul>li:hover {
+    background-color: gray;
+}
+
+section {
+    padding: 1rem;
+}
+
 .frame-conditions {
     padding: 1em 2em;
     font-size: 13px;
